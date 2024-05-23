@@ -7,15 +7,15 @@
 
 
 //network credentials
-const char* ssid     = "MonaConnect";
+const char* ssid     = "#############";
 const char* password = "";
 
 //Domain name and URL path or IP address with path
-const char* serverName = "http://172.16.188.254/post-esp-data.php";
+const char* serverName = "##############/post-esp-data.php";
 
 
 // the apiKeyValue value, the PHP file /post-esp-data.php also needs to have the same key 
-String apiKeyValue = "tPmAT5Ab3j7F9";
+String apiKeyValue = "##########";
 
 
 void setup() {
