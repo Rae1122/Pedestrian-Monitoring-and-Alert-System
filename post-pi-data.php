@@ -11,7 +11,7 @@ $password = "your_password";
 
 // Keep this API Key value to be compatible with the ESP32 code provided in the project page. 
 // If you change this value, the ESP32 sketch needs to match
-$api_key_value = "tPmAT5Ab3j7F9";
+$api_key_value = "###########";
 
 $api_key = $license = "";
 
