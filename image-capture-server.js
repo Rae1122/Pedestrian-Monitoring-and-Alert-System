@@ -5,7 +5,7 @@ const fetch = require("node-fetch");
 
 
 async function takeStill () {
-    var child = exec('libcamera-jpeg -n -o ./images/realtime.jpg --shutter 5000000 --gain 0.5 --width 700 --height 500');
+    var child = exec('libcamera-jpeg -n -o ./images/realtime.jpg --shutter 500000 --gain 0.5 --width 700 --height 500');
 
     child.stdout.on('data', function (data) {
         console.log('child process exited with ' +
